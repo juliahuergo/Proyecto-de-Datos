@@ -8,7 +8,7 @@ from tqdm import tqdm
 from google.transit import gtfs_realtime_pb2
 from google.protobuf.message import DecodeError
 
-fecha = "2025-12-30"
+fecha = "2026-01-30"
 
 RAW_DIR = Path(f"data/raw/{fecha}")
 TAR_PATH = next(RAW_DIR.glob(f"subwaydatanyc_{fecha}_gtfsrt_*.tar.xz"))
